@@ -1,9 +1,11 @@
 {
-  "name": "wedding-website",
-  "version": "1.0.1",
+  "name": "wedding website",
+  "version": "1.0.0",
   "description": "A wedding website with loads of features.",
   "main": "npmfile.js",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -15,9 +17,9 @@
     "template",
     "website template"
   ],
-  "author": "Ram Patra",
+  "author": "Shubham Agarwal",
   "license": "GPL-3.0",
-  "homepage": "https://shubniti.github.io/",
+  "homepage": "https://shubniti.github.io",
   "devDependencies": {
     "gh-pages": "^3.2.3",
     "gulp": "^4.0.2",
